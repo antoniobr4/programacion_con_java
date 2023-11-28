@@ -1,5 +1,6 @@
 /**
- * T01 Ejercicio 07
+ * T01 Ejercicio 07: Igual que el programa anterior, pero esta vez la pirámide estará hueca (se debe
+ * ver únicamente el contorno hecho con asteriscos).
  * 
  * @author Antonio Bravo
  * 

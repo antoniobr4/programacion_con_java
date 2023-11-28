@@ -1,5 +1,6 @@
 /**
- * T02 Ejercicio 04
+ * T02 Ejercicio 04: Realiza un conversor de euros a pesetas. La cantidad en euros que se quiere
+ * convertir deberá estar almacenada en una variable.
  * 
  * @author Antonio Bravo
  */

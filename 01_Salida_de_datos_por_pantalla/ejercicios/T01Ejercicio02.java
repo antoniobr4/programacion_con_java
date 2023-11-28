@@ -1,6 +1,8 @@
 /**
  * 
- * T02 Ejercicio 02: Mostrar nombre, dirección y tlf
+ * T02 Ejercicio 02:Modifica el programa anterior para que además se muestre tu dirección y
+ * tu número de teléfono. Asegúrate de que los datos se muestran en líneas
+ * separadas.
  * 
  * @author Antonio Bravo
  */

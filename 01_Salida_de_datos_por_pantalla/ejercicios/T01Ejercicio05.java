@@ -1,7 +1,7 @@
 import colors.ConsoleColors;
 
 /**
- * T01 Ejercicio 05 
+ * T01 Ejercicio 05: Modifica el programa anterior añadiendo colores. Puedes mostrar cada asignatura de un color diferente.
  * 
  * @author Antonio Bravo
  */

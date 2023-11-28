@@ -1,6 +1,8 @@
 /**
  * 
- * T03 Ejercicio 03: muestra 10 palabras en ingles con traducción
+ * T03 Ejercicio 03: Escribe un programa que muestre por pantalla 10 palabras en inglés junto a su
+ * correspondiente traducción al castellano. Las palabras deben estar distribuidas
+ * en dos columnas y alineadas a la izquierda.
  * 
  * @author Antoino Bravo 
  */
@@ -17,11 +19,6 @@ public class T01Ejercicio03 {
         System.out.printf("%-10s %s\n", "green", "verde");
         System.out.printf("%-10s %s\n", "book", "libro");
         System.out.printf("%-10s %s\n", "pyramid", "pirámide");
-            
-    
-    
-    
-    
     
     }
 

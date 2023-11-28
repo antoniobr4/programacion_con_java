@@ -1,9 +1,9 @@
 /**
- * T01 Ejercicio 01: Nombre por pantalla
+ * T01 Ejercicio 01: Escribe una programa que muestre tu nombre por pantalla.
  * 
  * @author Antonio Bravo
- * 
  */
+
 public class T01Ejercicio01 {
     
     public static void main(String[] args) {

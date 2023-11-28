@@ -1,4 +1,12 @@
 import java.util.Scanner;
+
+/**
+ * T04 Ejercicio 01: Escribe un programa que pida por teclado un día de la semana y que diga qué
+ * asignatura toca a primera hora ese día
+ * 
+ * @author Antonio Bravo
+ */
+
 public class T04Ejercicio01 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

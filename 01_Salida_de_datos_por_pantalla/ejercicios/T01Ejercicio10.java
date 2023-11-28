@@ -1,7 +1,7 @@
 import colors.ConsoleColors;
 
 /**
- * T01 Ejercicio 10
+ * T01 Ejercicio 10: Mejora el ejercicio anterior añadiéndole colores. 
  * 
  * @author Antonio Bravo
  */

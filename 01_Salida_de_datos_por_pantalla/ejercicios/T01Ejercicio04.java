@@ -1,6 +1,6 @@
 /**
  * 
- * T04 Ejercicio 04: Horario
+ * T04 Ejercicio 04: Escribe un programa que muestre tu horario de clase.
  * 
  * @author Antonio Bravo
  */
@@ -22,8 +22,6 @@ public class T01Ejercicio04 {
         System.out.println("│────────────────┼─────────┼──────────┼─────────────┼──────────┼───────────│"); 
         System.out.println("│  20:30 - 21:30 │  SIINF  │  LMSGI   │    PROGR    │   PROGR  │   SIINF   │");
         System.out.println("└────────────────┴─────────┴──────────┴─────────────┴──────────┴───────────┘");
-
-    
 
     }
     

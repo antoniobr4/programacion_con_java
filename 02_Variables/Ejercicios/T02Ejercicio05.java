@@ -1,5 +1,6 @@
 /**
- * TO2 Ejercicio 05
+ * TO2 Ejercicio 05: Realiza un conversor de pesetas a euros. La cantidad en pesetas que se quiere
+ * convertir deberá estar almacenada en una variable
  * 
  * @author Antonio Bravo
  */

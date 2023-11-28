@@ -1,5 +1,6 @@
 /**
- * T01 Ejercicio 08
+ * T01 Ejercicio 08: Igual que el programa anterior, pero esta vez la pirámide debe aparecer
+ * invertida, con el vértice hacia abajo.
  * 
  * @author Antonio Bravo
  */

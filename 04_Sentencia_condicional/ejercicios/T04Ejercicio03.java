@@ -1,4 +1,10 @@
 import java.util.Scanner;
+
+/**
+ * T04 Ejercicio 03: Escribe un programa en que dado un número del 1 a 7 escriba el correspondiente nombre del día de la semana.
+ * 
+ * @author Antonio Bravo
+ */
 public class T04Ejercicio03 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
