@@ -1,0 +1,19 @@
+{
+  "java.project.sourcePaths": [
+    "09_POO/ejercicios",
+    "09_POO/ejemplos",
+    "08_Funciones/ejemplos",
+    "07_Arrays/ejercicios",
+    "05_Bucles/ejercicios",
+    "05_Bucles/ejemplos",
+    "04_Sentencia_condicional/ejercicios",
+    "04_Sentencia_condicional/ejemplos",
+    "03_Lectura_de_dato_por_teclado/ejercicios",
+    "03_Lectura_de_dato_por_teclado/ejemplos",
+    "02_Variables/Ejercicios",
+    "02_Variables/Ejemplos",
+    "01_Salida_de_datos_por_pantalla/ejercicios",
+    "01_Salida_de_datos_por_pantalla/ejemplos",
+    "07_Arrays/ejemplos"
+  ]
+}
