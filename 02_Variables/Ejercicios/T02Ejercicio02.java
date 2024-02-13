@@ -8,6 +8,10 @@
  */
 
 public class T02Ejercicio02 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
          String nombre = "Antonio Jesús Bravo Rueda";
 

@@ -7,6 +7,10 @@
  */
 
 public class T02Ejercicio01 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         int x = 144;
         int y = 999;

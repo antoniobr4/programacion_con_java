@@ -4,6 +4,10 @@
  * @author Antonio Bravo
  */
 public class T05Ejerciio20 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     System.out.println("Introduce el carácter para realizar una pirámide: ");
     String caracter = System.console().readLine();

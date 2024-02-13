@@ -6,6 +6,10 @@ import java.util.Scanner;
  * @author Antonio Bravo
  */
 public class Ejemplo03 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in, "Windows-1252");   //Creamos un objeto de la clase Scanner, llamada sc
 

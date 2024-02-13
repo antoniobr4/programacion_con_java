@@ -6,6 +6,10 @@
  */
 
 public class T02Ejercicio05 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         double pesetas = 23;
         int euros = (int) (pesetas * 166.386);

@@ -6,6 +6,10 @@ import java.util.Scanner;
  * @author Antonio Bravo
  */
 public class EjemploWhile02 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int numeorIntroducido = 0;   // Variable que controla la salida del bucle
@@ -13,7 +17,7 @@ public class EjemploWhile02 {
     int suma = 0;            // Variable acumuladora dem los numeros positivos introducidos
 
     System.out.println("Por favor, introduce numeros positivos");
-    System.out.print("El programa finalizará cuando se introduzca un número negativo. ");
+    System.out.println("El programa finalizará cuando se introduzca un número negativo. ");
 
     while (numeorIntroducido >= 0) {
       System.out.println("Número: ");

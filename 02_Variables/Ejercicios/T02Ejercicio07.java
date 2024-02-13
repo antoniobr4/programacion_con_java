@@ -7,6 +7,10 @@
  */
 
 public class T02Ejercicio07 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         
     }

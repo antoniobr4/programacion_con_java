@@ -7,6 +7,8 @@ import colors.ConsoleColors;
  */
 
 public class T01Ejercicio10 {
+    
+    
     public static void main(String[] args) {
         System.out.println("░░░░░░░░░░"+ConsoleColors.WHITE + "█" +ConsoleColors.RESET+"");  
         System.out.println("░░░░░░░░"+ConsoleColors.CYAN + "▄▄█▄▄"+ConsoleColors.RESET+"");

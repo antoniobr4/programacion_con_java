@@ -7,6 +7,10 @@ import colors.ConsoleColors;
  */
 
 public class T01Ejercicio05 {
+    
+    /** 
+     * @param String[]args
+     */
     public static void main(String[]args) {
         System.out.println("┌────────────────┬─────────┬──────────┬─────────────┬──────────┬───────────┐");
         System.out.println("│     Hora       │  Lunes  │  Martes  │  Miércoles  │  Jueves  │  Viernes  │");

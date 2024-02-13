@@ -4,6 +4,10 @@
  * @author Antonio Bravo
  */
 public class EjemploWhile01 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     int i = 1;
 

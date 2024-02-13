@@ -5,6 +5,10 @@
  */
 
 public class Ejemplo02 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         String línea;          //Variable que almacenará cada línea que introduzcamos por teclado
 

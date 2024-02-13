@@ -7,6 +7,10 @@ import java.util.Scanner;
  */
 
 public class Ejemplo04 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    //Creamos un objeto de la clase Scanner, llamada sc
 

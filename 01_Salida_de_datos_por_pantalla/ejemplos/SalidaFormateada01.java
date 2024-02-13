@@ -4,19 +4,17 @@
  * @author Antonio Bravo
  */
 public class SalidaFormateada01 {
+  public static void main(String [] args) {
+    System.out.printf("El número %d no tiene decimales. \n", 21);
+    System.out.printf("El número %f sale con decimales. \n", 21.0);
+    System.out.printf("El %3f sal exactamentre con %d decimales. \n", 50.0,3 );
+    System.out.printf("Letra: %c. \n", 83);
 
-    public static void main(String [] args) {
-        System.out.printf("El número %d no tiene decimales. \n", 21);
-        System.out.printf("El número %f sale con decimales. \n", 21.0);
-        System.out.printf("El %3f sal exactamentre con %d decimales. \n", 50.0,3 );
-        System.out.printf("Letra: %c. \n", 83);
 
+    //Para ver el orden
+    System.out.printf("Mostramos el segundo argumento: %2$d \nY después el primero: %1$.2f", 23.0, 56);
+   
+  }  
 
-        //Para ver el orden
-        System.out.printf("Mostramos el segundo argumento: %2$d \nY después el primero: %1$.2f", 23.0, 56);
-        
-        
-    }
-
-    
+  
 }

@@ -4,13 +4,18 @@
  * @author Antonio Bravo
  */
 public class EjemploDoWhile02 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     int numero = 0;
+    
     do {
-      System.out.print("Introduce un número par: ");
+      System.out.println("Introduce un número par: ");
       numero = Integer.parseInt(System.console().readLine());
       if (numero % 2 == 0) {
-      System.out.println("Ay qué bonit es el numero par " + numero);
+      System.out.println("Ay qué bonito es el número par " + numero);
     } else {
       System.out.println("No me gustan los impares. Adiós");
     }

@@ -8,6 +8,10 @@
  */
 
  public class T01Ejercicio02 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args){
         System.out.println("Antoino Bravo\n");
         System.out.println("C/Conveto 10\n");

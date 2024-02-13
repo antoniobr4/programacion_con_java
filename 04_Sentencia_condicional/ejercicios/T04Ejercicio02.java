@@ -7,7 +7,8 @@
  * @author Antonio Bravo 
  */
 
-public class T04Ejercici02 {
+public class T04Ejercicio02 {
+  
   public static void main(String[] args) {
     System.out.print("Dime que hora es: ");
     int hora = Integer.parseInt(System.console().readLine());

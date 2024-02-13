@@ -5,6 +5,10 @@
  */
 
  public class Ejemplo01 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         String nombre;
         System.out.println("Dime como te llamas: ");

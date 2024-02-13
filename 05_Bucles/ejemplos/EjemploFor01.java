@@ -4,6 +4,10 @@
  * @author Antonio Bravo
  */
 public class EjemploFor01 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     for (int i = 1; i < 11; i++){
       System.out.println(i);

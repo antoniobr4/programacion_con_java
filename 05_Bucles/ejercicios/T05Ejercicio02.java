@@ -4,6 +4,10 @@
  * @author Antonio Bravo
  */
 public class T05Ejercicio02 {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     int i = 0;
     

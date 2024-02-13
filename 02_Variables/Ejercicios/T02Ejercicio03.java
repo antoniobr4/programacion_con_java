@@ -6,6 +6,10 @@
  */
 
 public class T02Ejercicio03 {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
          String nombre = "Antonio Jesús Bravo Rueda";
          String direccion ="C/Amargura 10";
