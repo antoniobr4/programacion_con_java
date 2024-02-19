@@ -4,6 +4,7 @@
     "09_POO/ejemplos",
     "08_Funciones/ejemplos",
     "07_Arrays/ejercicios",
+    "07_Arrays/ejemplos",
     "05_Bucles/ejercicios",
     "05_Bucles/ejemplos",
     "04_Sentencia_condicional/ejercicios",
@@ -14,6 +15,6 @@
     "02_Variables/Ejemplos",
     "01_Salida_de_datos_por_pantalla/ejercicios",
     "01_Salida_de_datos_por_pantalla/ejemplos",
-    "07_Arrays/ejemplos"
+    "10_Colecciones_y_diccionarios/ejemplos"
   ]
 }
