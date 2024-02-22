@@ -1,6 +1,6 @@
 public class Gato {
   
-  /////Atributos
+  //////Atributos
   String nombre;
   String color;
   String raza;
@@ -8,29 +8,29 @@ public class Gato {
   int edad;
   double peso;
 
-  ////Constructores
+  //////Constructores
   Gato(String nombre){
     this.nombre = nombre;
+    this.color = "Azul";
+    this.raza = "Romano";
   }
 
   Gato(String nombre, String color, String raza, String sexo, int edad, double peso){
     this.nombre = nombre;
     this.color = color;
     this.raza = raza;
-    this.sexo  = sexo;
-    this.edad = edad;
     this.sexo = sexo;
+    this.edad = edad;
     this.peso = peso;
   }
 
-  /////Métodos
+  //////Métodos
   void maulla(){
-    System.out.println("Miiiaaauu!");
+    System.out.println("Miaaaaaaaau!");
   }
 
   void ronronea(){
-    System.out.println("Brrrrrr");
-  
+    System.out.println("Brrrrrrrr");
   }
 
   void come(String comida){
@@ -41,6 +41,12 @@ public class Gato {
     }
   }
 
+  /**
+  * Pone a pelear dos gatos.
+  * Solo se van a pelear dos machos entre sí.
+  *
+  * @param contrincante es el gato contra el que pelear
+  */
   void peleaCon(Gato contrincante){
     if (this.sexo.equals(contrincante.sexo) && this.sexo.equals("macho")) {
       System.out.println("Ven aquí, que te reviento");

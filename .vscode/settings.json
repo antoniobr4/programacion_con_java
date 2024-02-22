@@ -1,5 +1,6 @@
 {
   "java.project.sourcePaths": [
+    "10_Colecciones_y_diccionarios/ejemplos",
     "09_POO/ejercicios",
     "09_POO/ejemplos",
     "08_Funciones/ejemplos",
@@ -15,6 +16,6 @@
     "02_Variables/Ejemplos",
     "01_Salida_de_datos_por_pantalla/ejercicios",
     "01_Salida_de_datos_por_pantalla/ejemplos",
-    "10_Colecciones_y_diccionarios/ejemplos"
+    "10_Colecciones_y_diccionarios/ejercicios"
   ]
 }

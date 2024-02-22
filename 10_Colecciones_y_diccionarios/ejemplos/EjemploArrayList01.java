@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Ejemplo de uso de la clase ArrayList de String: métodos size, add y get
+ *        
  * 
  * @author Antonio Bravo
  */
@@ -21,7 +22,10 @@ public class EjemploArrayList01 {
 
     a.add("blanco");
 
-    System.out.println("Nº de elementos: " + a.size());
+    System.out.println("Nº de elementos: " + a.size()); 
+
+    System.out.println("El elemento que hay en la posición 0 es " + a.get(0));
+    System.out.println("El elemento que hay en la posición 3 es " + a.get(0));
 
 
   }
