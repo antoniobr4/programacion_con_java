@@ -1,5 +1,5 @@
 public class Gato extends Mamifero {
-  private String raza;
+  public static char[] nombre;
   public Gato (Sexo s, String r) {
     super(s);
     this.raza = r;

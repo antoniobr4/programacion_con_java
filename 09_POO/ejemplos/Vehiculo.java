@@ -1,27 +1,33 @@
 public class Vehiculo {
   // atributos de clase
-  private static int VehiculoCreados = 0;
-  private static int kmTotales = 0;
+  // atributos de clase
+  private static int vehiculosCreados = 0;
+  private static int kilometrosTotales = 0;
 
-  // atributos de instancia(objeto)
-  private int kmRecorridos;
+  //atributos de instancia
+  private int kilometrosRecorridos;
 
-  public  Vehiculo() {
-    this.kmRecorridos = 0;
+  public Vehiculo() {
+    this.kilometrosRecorridos = 0;
+    vehiculosCreados++;
   }
 
-  public int getkmRecorridos() {
-    return this.kmRecorridos;
+  public int getKilometrosRecorridos() {
+    return this.kilometrosRecorridos;
   }
 
   public void recorre(int km) {
-    this.kmRecorridos += km;
-    kmTotales += km;
+    this.kilometrosRecorridos += km;
+    kilometrosTotales += km;
   }
 
-
-  //Metodos de clase
-  public static int kmTotales() {
-    return kmTotales;
+  //Método de clase
+  public static int getKilometrosTotales() {
+    return kilometrosTotales;
   }
+  
+  public static int getVehiculosCreados() {
+    return vehiculosCreados;
+  }
+
 }
