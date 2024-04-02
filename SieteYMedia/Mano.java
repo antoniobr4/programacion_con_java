@@ -50,3 +50,4 @@ public class Mano {
         numeroCarta = 0;
     }
 }
+ 

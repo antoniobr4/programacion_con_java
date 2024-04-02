@@ -31,7 +31,7 @@ public class Jugador {
         this.fondos = fondos;
     }
 
-    ////Métodos
+    ////Métodos 
 
     /** 
      * Método para pedir una carta y enseñarla por pantalla.

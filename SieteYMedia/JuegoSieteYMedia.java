@@ -5,7 +5,7 @@ public class JuegoSieteYMedia {
 
       // Variable para salir del programa
       boolean salir = false;
-      String opcion;
+      String opcion; 
 
       //Imprimir el menú de juego
       do {

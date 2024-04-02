@@ -1,5 +1,5 @@
 public class Baraja {
-    
+     
     //// Atributos
     private String[] palos = {"Oros", "Bastos", "Espadas", "Copas"};
     private String[] valores = {"1", "2", "3", "4", "5", "6", "7", "Sota", "Caballo", "Rey"};
