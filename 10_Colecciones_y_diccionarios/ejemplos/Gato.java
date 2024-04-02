@@ -31,9 +31,10 @@
   public String toString() {
     return "\nNombre: " + this.nombre + "\nColor: " + this.color + "\nRaza: " + this.raza;
   }
-    
+   
+  @Override
   public int compareTo(Gato g) {
-    return (this.nombre).compareTo(g.getNombre());
+    return Integer.compare(this.edad, g.getNombre());
  }
 
 
