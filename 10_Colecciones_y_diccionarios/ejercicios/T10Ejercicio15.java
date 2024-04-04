@@ -75,7 +75,7 @@ public class T10Ejercicio15 {
     }
 
     System.out.println("---------------------------------");
-    System.out.println("Descuento: %7.2f€\n " + descuento);
+    System.out.printf("Descuento: %7.2f€\n " , descuento);
     System.out.println("---------------------------------");
     System.out.printf("TOTAL: %7.2f€" , total);
   }
