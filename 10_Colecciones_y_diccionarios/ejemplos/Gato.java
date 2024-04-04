@@ -32,10 +32,14 @@
     return "\nNombre: " + this.nombre + "\nColor: " + this.color + "\nRaza: " + this.raza;
   }
    
-  @Override
-  public int compareTo(Gato g) {
-    return Integer.compare(this.edad, g.getNombre());
- }
+  //   @Override
+  //   public int compareTo(Gato g) {
+  //     return (this.nombre).compareTo(g.getNombre());
+  //  }
 
+  public boolean equals(Gato g) {
+    return (this.nombre).equals(g.getNombre());
+  }
 
+  
 }
