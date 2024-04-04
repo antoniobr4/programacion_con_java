@@ -1,3 +1,5 @@
+package T10Ejercicio08;
+
 public class Carta {
   private static String[] p = {"Oros", "Bastos", "Espadas", "Copas"};
   private static String[] n = {"1", "2", "3", "4", "5", "6", "7", "Sota", "Caballo", "Rey"};
