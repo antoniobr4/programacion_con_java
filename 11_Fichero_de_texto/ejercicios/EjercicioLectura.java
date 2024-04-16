@@ -30,7 +30,7 @@ public class EjercicioLectura {
       br.close();
 
     } catch (Exception e) {
-      System.out.println("No es posiblecontar las palabras");
+      System.out.println("No es posible contar las palabras");
     }
   }
 
