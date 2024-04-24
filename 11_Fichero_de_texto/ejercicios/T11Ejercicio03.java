@@ -19,10 +19,15 @@ import java.io.FileWriter;
 
 public class T11Ejercicio03 {
   public static void main(String[] args) {
+    if (args.length != 3) {
+      System.out.println("Uso del programa: java T11Ejercicio03 FICHERO_ENTRADA1 FICHERO_ENTRADA2 FICHERO_SALIDA");
+      System.out.println(0);
+    }
+
     try {
-      BufferedReader br1 = new BufferedReader(new FileReader("ficheros/fichero1.txt"));
-      BufferedReader br2 = new BufferedReader(new FileReader("ficheros/fichero2.txt"));
-      BufferedWriter bw = new BufferedWriter(new FileWriter("ficheros/mezcla.txt"));
+      BufferedReader br1 = new BufferedReader(new FileReader(args[0]));
+      BufferedReader br2 = new BufferedReader(new FileReader(args[1]));
+      BufferedWriter bw = new BufferedWriter(new FileWriter(args[2]));
 
       String linea1 = "";
       String linea2 = "";
@@ -33,6 +38,7 @@ public class T11Ejercicio03 {
         if (linea1 != null) {
           bw.write(linea1 + "\n");
         }
+        
         if (linea2 != null) {
           bw.write(linea2 + "\n");
         }
