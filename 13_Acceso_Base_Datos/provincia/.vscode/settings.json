@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "ejemplos",
+        "ejercicios",
+        "ejercicios\\Ejercicio8"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
