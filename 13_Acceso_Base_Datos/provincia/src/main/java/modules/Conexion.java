@@ -23,6 +23,7 @@ public class Conexion {
     } catch (Exception e) {
       System.out.println("Se ha producido un error al conectar con la base de datos");
     }
+    return conexion;
   
   }
 
