@@ -14,29 +14,38 @@
     <title>PROYECTO PROVINCIAS</title>
   </head>
   <body>
-    <h1>Comunidades Autonómas</h1>
+    <h1>Provincias</h1>
     <% 
+      //El valor de los parámetros en la petición POST deben codificarse a UTF-8
+      request.setCharacterEncoding("UTF-8");
+      String codCCAA = request.getParameter("ccaa");
+
       //Conectamos con la BBDD
       Connection conexion = Conexion.getConexion("ccaa");
       Statement consulta = conexion.createStatement();
-      ResultSet resultado = consulta.executeQuery("SELECT * FROM ccaa ;");
+      ResultSet resultado = consulta.executeQuery("SELECT * FROM provincia WHERE codCCAA = " + codCCAA + " ;");
     %>
-    <form action="provincias.jsp" method="post">
-      <label for="ccaa">Selecciona una comunidad autónoma:</label>
-      <select id="ccaa" name="ccaa">
-
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
         <%
-          while(resultado.next()) {
-            out.println("<option value=\"" + resultado.getString("codCCAA") + "\">");
-            out.println(resultado.getString("nomCCAA"));
-            out.println("</option>");
+          while(resultado.next()){
+            out.println("<tr>");
+            out.println("<td>" + resultado.getString("nomProv") + "</td>");
+            out.println("<td></td>");
+            out.println("<td>Editar</td>");
+            out.println("<td><a href=\"borrarProvincia.jsp?cod=" + resultado.getString("codProv") + "\">Borrar</a></td>");
           }
         %>
-
-      </select>
-      <br>
-      <button>Selecciona</button>
-    </form>
+      </tbody>
+    </table>
 
     <%
       //Cerramos conexión con BBDD
