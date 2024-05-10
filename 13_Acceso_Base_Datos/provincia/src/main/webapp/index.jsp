@@ -1,4 +1,4 @@
-<%-- @author Sergio Sánchez Martín --%>
+<%-- @author Antonio Bravo --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="modules.Conexion"%>
 <%@page import="java.sql.Connection"%>

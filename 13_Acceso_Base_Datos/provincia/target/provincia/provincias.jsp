@@ -1,4 +1,4 @@
-<%-- @author Sergio Sánchez Martín --%>
+<%-- @author Antonio Bravo --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="modules.Conexion"%>
 <%@page import="java.sql.Connection"%>
@@ -25,8 +25,8 @@
       Statement consulta = conexion.createStatement();
       ResultSet resultado = consulta.executeQuery("SELECT * FROM provincia WHERE codCCAA = " + codCCAA + " ;");
     %>
-    <table>
-      <thead>
+     <table class="table table-light table-striped">
+      <thead class="table-dark">
         <tr>
           <th>Nombre</th>
           <th></th>
@@ -34,13 +34,22 @@
           <th></th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="table-group-divider">
         <%
           while(resultado.next()){
             out.println("<tr>");
             out.println("<td>" + resultado.getString("nomProv") + "</td>");
             out.println("<td></td>");
-            out.println("<td>Editar</td>");
+            // out.println("<td>Editar</td>");
+          %>
+            <td>
+              <a class="icon-link" href="editarProvincias.jsp?codcodProv=<%= resultado.getString("codProv") %>">
+                <i class="bi bi-pencil"></i>
+                Modificar
+            </a>
+            </td><i class="bi bi-pencil"></i>
+
+          <%
             out.println("<td><a href=\"borrarProvincia.jsp?cod=" + resultado.getString("codProv") + "\">Borrar</a></td>");
           }
         %>
@@ -51,6 +60,14 @@
       //Cerramos conexión con BBDD
       conexion.close();
     %>
+
+    <%-- BOTÓN AÑADIR PROVINCIA --%>
+    <%-- <a href="insertarProvincia.jsp" method="post">integer nueva provincia</a> --%>
+
+    <form action="insertarProvincia.jsp" method="post">
+      <input type="hidden" name="ccaa" value="<%= codCCAA %>" />
+      <button>Insertar nueva provincia</button>
+    </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
